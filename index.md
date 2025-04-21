@@ -2,7 +2,6 @@
 layout: default
 title: Rhythm from within
 ---
-
 # 欢迎来我的写作空间小坐
 
 这是我的说给宇宙听系列文字。
