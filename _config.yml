@@ -16,3 +16,21 @@ social_links:
 
 # 其他设置
 show_excerpts: true # 在首页显示文章摘要
+
+# 支持中文和UTF-8字符
+encoding: utf-8
+timezone: Asia/Shanghai
+
+# 设置集合 - 只添加您现有的一两个文件夹作为测试
+collections:
+    6_把话说给宇宙听--致敬那些无以名状的存在: # 替换为您实际的文件夹名
+        output: true
+        permalink: /:collection/:name/
+
+# 为测试的集合设置默认布局
+defaults:
+    - scope:
+          path: ""
+          type: "6_把话说给宇宙听--致敬那些无以名状的存在" # 替换为您实际的文件夹名
+      values:
+          layout: post
