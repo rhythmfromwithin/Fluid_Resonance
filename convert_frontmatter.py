@@ -19,7 +19,6 @@ def process_markdown_file(file_path):
         return
     
     # 更改这部分，使用一个更灵活的正则表达式来匹配前置元数据块
-    # 前置元数据块可能在文件开头或者在一些其他内容之后
     front_matter_pattern = r'---\n(.*?)\n---'
     match = re.search(front_matter_pattern, content, re.DOTALL)
     
@@ -40,34 +39,58 @@ def process_markdown_file(file_path):
     # 获取前置元数据块开始前的所有内容作为前缀
     prefix_content = content[:content.find(entire_front_matter)]
     
-    # 解析原始前置元数据
-    try:
-        front_matter = yaml.safe_load(front_matter_text)
-    except Exception as e:
-        print(f"解析文件 {file_path} 的前置元数据时出错: {e}")
-        return
+    # 解析原始前置元数据 - 手动解析而不是用YAML库
+    front_matter = {}
+    lines = front_matter_text.strip().split('\n')
+    for line in lines:
+        # 跳过空行
+        if not line.strip():
+            continue
+            
+        # 尝试拆分每一行为键值对
+        if ':' in line:
+            key, value = line.split(':', 1)
+            key = key.strip()
+            value = value.strip()
+            front_matter[key] = value
     
     # 创建新的前置元数据结构
     new_front_matter = {
         "title": front_matter.get("Title", ""),
         "subtitle": front_matter.get("Theme", ""),
-        "date": front_matter.get("EditingCompletion", None),
+        "date": front_matter.get("EditingCompletion", ""),
         "custom": {
-            "Status": front_matter.get("Status", None),
-            "WritingStart": front_matter.get("WritingStart", None),
-            "Completion": front_matter.get("Completion", None),
-            "EditingCompletion": front_matter.get("EditingCompletion", None),
-            "PlannedPublication": front_matter.get("PlannedPublication", None),
-            "ActualPublication": front_matter.get("ActualPublication", None),
-            "Notes": front_matter.get("Notes", None)
+            "Status": front_matter.get("Status", ""),
+            "WritingStart": front_matter.get("WritingStart", ""),
+            "Completion": front_matter.get("Completion", ""),
+            "EditingCompletion": front_matter.get("EditingCompletion", ""),
+            "PlannedPublication": front_matter.get("PlannedPublication", ""),
+            "ActualPublication": front_matter.get("ActualPublication", ""),
+            "Notes": front_matter.get("Notes", "")
         }
     }
     
     # 转换为YAML格式
-    new_front_matter_text = yaml.dump(new_front_matter, 
-                                     allow_unicode=True, 
-                                     default_flow_style=False,
-                                     sort_keys=False)
+    try:
+        new_front_matter_text = yaml.dump(new_front_matter, 
+                                        allow_unicode=True, 
+                                        default_flow_style=False,
+                                        sort_keys=False)
+    except Exception as e:
+        print(f"转换YAML时出错: {e}")
+        # 如果YAML转换失败，使用一个简单的字符串格式
+        new_front_matter_text = f"""title: "{new_front_matter['title']}"
+subtitle: "{new_front_matter['subtitle']}"
+date: {new_front_matter['date']}
+custom:
+  Status: {new_front_matter['custom']['Status']}
+  WritingStart: {new_front_matter['custom']['WritingStart']}
+  Completion: {new_front_matter['custom']['Completion']}
+  EditingCompletion: {new_front_matter['custom']['EditingCompletion']}
+  PlannedPublication: {new_front_matter['custom']['PlannedPublication']}
+  ActualPublication: {new_front_matter['custom']['ActualPublication']}
+  Notes: {new_front_matter['custom']['Notes']}
+"""
     
     # 创建新的内容，保留前缀内容
     new_content = f"{prefix_content}---\n{new_front_matter_text}---{body_content}"
@@ -121,19 +144,20 @@ if __name__ == "__main__":
     
     if not subdirectories:
         print("当前目录中没有找到任何子目录")
-        exit(1)
-    
-    print("当前目录中的子目录:")
-    for i, subdir in enumerate(subdirectories, 1):
-        print(f"{i}. {subdir}")
-    
-    print("\n选择操作:")
-    print("1. 处理单个子目录中的所有.md文件")
-    print("2. 处理所有子目录中的所有.md文件")
-    print("3. 处理指定的单个.md文件")
-    print("4. 输入完整文件路径进行处理")
-    
-    choice = input("请选择操作 (1/2/3/4): ")
+        print("选项4: 输入完整文件路径进行处理")
+        choice = '4'  # 默认选择选项4
+    else:
+        print("当前目录中的子目录:")
+        for i, subdir in enumerate(subdirectories, 1):
+            print(f"{i}. {subdir}")
+        
+        print("\n选择操作:")
+        print("1. 处理单个子目录中的所有.md文件")
+        print("2. 处理所有子目录中的所有.md文件")
+        print("3. 处理指定的单个.md文件")
+        print("4. 输入完整文件路径进行处理")
+        
+        choice = input("请选择操作 (1/2/3/4): ")
     
     if choice == '1':
         dir_num = int(input(f"请输入要处理的子目录编号 (1-{len(subdirectories)}): "))
