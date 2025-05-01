@@ -1,0 +1,187 @@
+import os
+import re
+import yaml
+from datetime import datetime
+
+def process_markdown_file(file_path):
+    # 确保文件路径是有效的
+    file_path = os.path.normpath(file_path)
+    
+    if not os.path.exists(file_path):
+        print(f"错误: 文件不存在: {file_path}")
+        return
+    
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            content = file.read()
+    except Exception as e:
+        print(f"读取文件时出错: {e}")
+        return
+    
+    # 更改这部分，使用一个更灵活的正则表达式来匹配前置元数据块
+    # 前置元数据块可能在文件开头或者在一些其他内容之后
+    front_matter_pattern = r'---\n(.*?)\n---'
+    match = re.search(front_matter_pattern, content, re.DOTALL)
+    
+    if not match:
+        print(f"无法在文件 {file_path} 中找到前置元数据块")
+        return
+    
+    # 提取前置元数据和正文内容
+    front_matter_text = match.group(1)
+    
+    # 获取整个前置元数据块，包括前后的 ---
+    entire_front_matter = match.group(0)
+    
+    # 获取前置元数据块结束后的所有内容作为正文
+    body_start_index = content.find(entire_front_matter) + len(entire_front_matter)
+    body_content = content[body_start_index:]
+    
+    # 获取前置元数据块开始前的所有内容作为前缀
+    prefix_content = content[:content.find(entire_front_matter)]
+    
+    # 解析原始前置元数据
+    try:
+        front_matter = yaml.safe_load(front_matter_text)
+    except Exception as e:
+        print(f"解析文件 {file_path} 的前置元数据时出错: {e}")
+        return
+    
+    # 创建新的前置元数据结构
+    new_front_matter = {
+        "title": front_matter.get("Title", ""),
+        "subtitle": front_matter.get("Theme", ""),
+        "date": front_matter.get("EditingCompletion", None),
+        "custom": {
+            "Status": front_matter.get("Status", None),
+            "WritingStart": front_matter.get("WritingStart", None),
+            "Completion": front_matter.get("Completion", None),
+            "EditingCompletion": front_matter.get("EditingCompletion", None),
+            "PlannedPublication": front_matter.get("PlannedPublication", None),
+            "ActualPublication": front_matter.get("ActualPublication", None),
+            "Notes": front_matter.get("Notes", None)
+        }
+    }
+    
+    # 转换为YAML格式
+    new_front_matter_text = yaml.dump(new_front_matter, 
+                                     allow_unicode=True, 
+                                     default_flow_style=False,
+                                     sort_keys=False)
+    
+    # 创建新的内容，保留前缀内容
+    new_content = f"{prefix_content}---\n{new_front_matter_text}---{body_content}"
+    
+    # 输出新内容
+    dir_path = os.path.dirname(file_path)
+    file_name = os.path.basename(file_path)
+    base_name, ext = os.path.splitext(file_name)
+    output_path = os.path.join(dir_path, f"{base_name}_converted{ext}")
+    
+    try:
+        with open(output_path, 'w', encoding='utf-8') as file:
+            file.write(new_content)
+        print(f"已处理文件 {file_path} 并保存到 {output_path}")
+    except Exception as e:
+        print(f"写入文件时出错: {e}")
+
+def process_directory(directory_path):
+    if not os.path.exists(directory_path):
+        print(f"错误: 目录不存在: {directory_path}")
+        return
+    
+    md_files_count = 0
+    for root, _, files in os.walk(directory_path):
+        for file in files:
+            if file.endswith('.md'):
+                file_path = os.path.join(root, file)
+                process_markdown_file(file_path)
+                md_files_count += 1
+    
+    print(f"已处理 {md_files_count} 个 .md 文件")
+
+def list_subdirectories(root_path='.'):
+    """列出指定目录下的所有子目录"""
+    subdirectories = []
+    for item in os.listdir(root_path):
+        item_path = os.path.join(root_path, item)
+        if os.path.isdir(item_path):
+            subdirectories.append(item)
+    return subdirectories
+
+if __name__ == "__main__":
+    print("YAML前置元数据转换脚本")
+    print("======================")
+    
+    # 获取当前目录（脚本所在目录）
+    current_dir = os.path.dirname(os.path.abspath(__file__)) or '.'
+    
+    # 列出子目录
+    subdirectories = list_subdirectories(current_dir)
+    
+    if not subdirectories:
+        print("当前目录中没有找到任何子目录")
+        exit(1)
+    
+    print("当前目录中的子目录:")
+    for i, subdir in enumerate(subdirectories, 1):
+        print(f"{i}. {subdir}")
+    
+    print("\n选择操作:")
+    print("1. 处理单个子目录中的所有.md文件")
+    print("2. 处理所有子目录中的所有.md文件")
+    print("3. 处理指定的单个.md文件")
+    print("4. 输入完整文件路径进行处理")
+    
+    choice = input("请选择操作 (1/2/3/4): ")
+    
+    if choice == '1':
+        dir_num = int(input(f"请输入要处理的子目录编号 (1-{len(subdirectories)}): "))
+        if 1 <= dir_num <= len(subdirectories):
+            dir_path = os.path.join(current_dir, subdirectories[dir_num - 1])
+            process_directory(dir_path)
+        else:
+            print("无效的目录编号")
+    
+    elif choice == '2':
+        for subdir in subdirectories:
+            dir_path = os.path.join(current_dir, subdir)
+            print(f"\n处理目录: {subdir}")
+            process_directory(dir_path)
+    
+    elif choice == '3':
+        dir_num = int(input(f"请选择子目录编号 (1-{len(subdirectories)}): "))
+        if 1 <= dir_num <= len(subdirectories):
+            dir_path = os.path.join(current_dir, subdirectories[dir_num - 1])
+            
+            # 列出选定子目录中的所有.md文件
+            md_files = []
+            for file in os.listdir(dir_path):
+                if file.endswith('.md'):
+                    md_files.append(file)
+            
+            if not md_files:
+                print(f"在 {subdirectories[dir_num - 1]} 目录中没有找到任何.md文件")
+            else:
+                print(f"\n在 {subdirectories[dir_num - 1]} 目录中的.md文件:")
+                for i, file in enumerate(md_files, 1):
+                    print(f"{i}. {file}")
+                
+                file_num = int(input(f"请输入要处理的文件编号 (1-{len(md_files)}): "))
+                if 1 <= file_num <= len(md_files):
+                    file_path = os.path.join(dir_path, md_files[file_num - 1])
+                    process_markdown_file(file_path)
+                else:
+                    print("无效的文件编号")
+        else:
+            print("无效的目录编号")
+    
+    elif choice == '4':
+        file_path = input("请输入完整的文件路径: ")
+        if os.path.isfile(file_path):
+            process_markdown_file(file_path)
+        else:
+            print(f"错误: 无效的文件路径: {file_path}")
+    
+    else:
+        print("无效的选择")
