@@ -26,11 +26,19 @@ collections:
     6_把话说给宇宙听--致敬那些无以名状的存在: # 替换为您实际的文件夹名
         output: true
         permalink: /:collection/:name/
+    2_把话说给宇宙听之随手记: # 替换为您实际的文件夹名
+        output: true
+        permalink: /:collection/:name/
 
 # 为测试的集合设置默认布局
 defaults:
     - scope:
           path: ""
           type: "6_把话说给宇宙听--致敬那些无以名状的存在" # 替换为您实际的文件夹名
+      values:
+          layout: post
+    - scope:
+          path: ""
+          type: "2_把话说给宇宙听之随手记" # 替换为您实际的文件夹名
       values:
           layout: post
