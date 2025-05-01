@@ -1,3 +1,18 @@
-theme: jekyll-theme-minimal
+# 网站基本信息
 title: Fluid Resonance
 description: tracing the inner voice, word by word.
+author: Tao Zhang
+
+# 使用 Minima 主题
+theme: minima
+
+# Minima 主题设置
+minima:
+    date_format: "%Y-%m-%d" # 日期格式
+
+# 社交媒体链接（可选）
+social_links:
+    github: rhythmfromwithin
+
+# 其他设置
+show_excerpts: true # 在首页显示文章摘要
