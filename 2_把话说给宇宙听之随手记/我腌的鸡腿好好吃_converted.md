@@ -1,15 +1,15 @@
 ---
-title: 我腌的鸡腿好好吃
-subtitle: 把话说给宇宙听之随手记
-date: '2025-04-18'
+title: "我腌的鸡腿好好吃"
+subtitle: "把话说给宇宙听之随手记"
+date: 2025-04-18
 custom:
   Status: PublishReady
-  WritingStart: '2025-04-21'
-  Completion: '2025-04-17'
-  EditingCompletion: '2025-04-18'
-  PlannedPublication: 'null'
-  ActualPublication: 'null'
-  Notes: 'null'
+  WritingStart: 2025-04-21
+  Completion: 2025-04-17
+  EditingCompletion: 2025-04-18
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---    
 我腌的鸡腿好好吃    
 我刚好在边咀嚼鸡脆骨边看窗外的时候发现FedEx的卡车上商标的配色好好看  

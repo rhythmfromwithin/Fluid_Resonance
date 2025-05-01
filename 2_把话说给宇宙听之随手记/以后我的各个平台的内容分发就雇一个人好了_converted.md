@@ -1,15 +1,15 @@
 ---
-title: 以后我的各个平台的内容分发就雇一个人好了
-subtitle: 把话说给宇宙听之随手记
-date: '2025-04-18'
+title: "以后我的各个平台的内容分发就雇一个人好了"
+subtitle: "把话说给宇宙听之随手记"
+date: 2025-04-18
 custom:
   Status: PublishReady
-  WritingStart: '2025-04-17'
-  Completion: '2025-04-17'
-  EditingCompletion: '2025-04-18'
-  PlannedPublication: 'null'
-  ActualPublication: 'null'
-  Notes: 'null'
+  WritingStart: 2025-04-17
+  Completion: 2025-04-17
+  EditingCompletion: 2025-04-18
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---    
 窗户外面有火车经过的声音  
 我把上一周写的散步随手记整理好了  

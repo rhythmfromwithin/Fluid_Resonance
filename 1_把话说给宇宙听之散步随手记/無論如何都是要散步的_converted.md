@@ -1,15 +1,15 @@
 ---
-title: 無論如何都是要散步的
-subtitle: 把话说给宇宙听之散步随手记
-date: '2025-04-28'
+title: "無論如何都是要散步的"
+subtitle: "把话说给宇宙听之散步随手记"
+date: 2025-04-28
 custom:
   Status: PublishReady
-  WritingStart: '2025-04-28'
-  Completion: '2025-04-28'
-  EditingCompletion: '2025-04-28'
-  PlannedPublication: 'null'
-  ActualPublication: 'null'
-  Notes: 'null'
+  WritingStart: 2025-04-28
+  Completion: 2025-04-28
+  EditingCompletion: 2025-04-28
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---  
 無論如何都是要散步的 今早我室友說她早上起來肚子不舒服 我其實也有肚子不舒服 但我覺得握的肚子不舒服是生理期的節奏 我早上起來很餓 我喝了牛奶+冰淇淋+抹茶水 回家之後再吃早餐 我能明顯感覺出來 生理期之前我的胃口變好了 我覺得是我的身體在我接下來的能量消耗做準備    
 今早的夢境很有意思 我們一大家人搬到一個新的地方 超級大的一個空間 有些人已經出去了 有些人還在睡覺 我早上起床後想做一個湯 蔬菜湯 我看鍋裡有蔬菜和油 我就開火了 加了水 鍋鏟鏟起來的時候 那蔬菜整整一大長條 滿滿一把在鍋裡 有一個雞蛋 但我想加兩個 那個水量加兩個雞蛋合適 然後我就滿屋子找雞蛋啊 雞蛋沒找到 看到一大堆包裹好的東西 我輕輕拔開 原來是蒜 很多很多的蒜 還都是包裝保護很好的樣子    

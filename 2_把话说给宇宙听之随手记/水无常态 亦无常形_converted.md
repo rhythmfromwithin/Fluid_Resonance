@@ -1,15 +1,15 @@
 ---
-title: 水无常态 亦无常形
-subtitle: 把话说给宇宙听之随手记
-date: '2025-05-01'
+title: "水无常态 亦无常形"
+subtitle: "把话说给宇宙听之随手记"
+date: 2025-05-01
 custom:
   Status: PublishReady
-  WritingStart: '2025-04-30'
-  Completion: '2025-05-01'
-  EditingCompletion: '2025-05-01'
-  PlannedPublication: 'null'
-  ActualPublication: 'null'
-  Notes: 'null'
+  WritingStart: 2025-04-30
+  Completion: 2025-05-01
+  EditingCompletion: 2025-05-01
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---  
 水无常态 亦无常形  
   

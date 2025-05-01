@@ -1,15 +1,15 @@
 ---
-title: 灯光下的那种波光粼粼的状态
-subtitle: 把话说给宇宙听之随手记
-date: '2025-04-24'
+title: "灯光下的那种波光粼粼的状态"
+subtitle: "把话说给宇宙听之随手记"
+date: 2025-04-24
 custom:
   Status: PublishReady
-  WritingStart: '2025-04-22'
-  Completion: '2025-04-24'
-  EditingCompletion: '2025-04-24'
-  PlannedPublication: 'null'
-  ActualPublication: 'null'
-  Notes: 'null'
+  WritingStart: 2025-04-22
+  Completion: 2025-04-24
+  EditingCompletion: 2025-04-24
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---  
 我昨天躺在床上的时候看到我的衣柜门口的那个落地灯有一圈光晕在房顶上  
 我是第一次注意到    

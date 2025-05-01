@@ -1,15 +1,15 @@
 ---
-title: 我他妈一定要和同事或者领导搞好关系
-subtitle: 把话说给宇宙听之随手记
-date: '2025-04-25'
+title: "我他妈一定要和同事或者领导搞好关系"
+subtitle: "把话说给宇宙听之随手记"
+date: 2025-04-25
 custom:
   Status: PublishReady
-  WritingStart: '2025-04-25'
-  Completion: '2025-04-25'
-  EditingCompletion: '2025-04-25'
-  PlannedPublication: 'null'
-  ActualPublication: 'null'
-  Notes: 'null'
+  WritingStart: 2025-04-25
+  Completion: 2025-04-25
+  EditingCompletion: 2025-04-25
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---  
 我讨厌 LinkedIn 上主动找过来的人  
 主要是他妈没有一次是可靠的  

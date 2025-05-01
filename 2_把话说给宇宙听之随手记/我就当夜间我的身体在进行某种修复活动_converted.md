@@ -1,15 +1,15 @@
 ---
-title: 我就当夜间我的身体在进行某种修复活动
-subtitle: 把话说给宇宙听之随手记
-date: '2025-04-18'
+title: "我就当夜间我的身体在进行某种修复活动"
+subtitle: "把话说给宇宙听之随手记"
+date: 2025-04-18
 custom:
   Status: PublishReady
-  WritingStart: '2025-04-17'
-  Completion: '2025-04-17'
-  EditingCompletion: '2025-04-18'
-  PlannedPublication: 'null'
-  ActualPublication: 'null'
-  Notes: 'null'
+  WritingStart: 2025-04-17
+  Completion: 2025-04-17
+  EditingCompletion: 2025-04-18
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---    
 外面的风好大呀  
 我躺着床上看AI点评我写的东西  

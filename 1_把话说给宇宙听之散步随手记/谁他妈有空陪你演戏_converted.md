@@ -1,15 +1,15 @@
 ---
-title: 我今天穿了防风衣
-subtitle: 把话说给宇宙听之散步随手记
-date: '2025-04-25'
+title: "我今天穿了防风衣"
+subtitle: "把话说给宇宙听之散步随手记"
+date: 2025-04-25
 custom:
   Status: PublishReady
-  WritingStart: '2025-04-24'
-  Completion: '2025-04-25'
-  EditingCompletion: '2025-04-25'
-  PlannedPublication: 'null'
-  ActualPublication: 'null'
-  Notes: 'null'
+  WritingStart: 2025-04-24
+  Completion: 2025-04-25
+  EditingCompletion: 2025-04-25
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---    
 我今天整个人饿得不正常  
 我特别想吃糖水化合物  

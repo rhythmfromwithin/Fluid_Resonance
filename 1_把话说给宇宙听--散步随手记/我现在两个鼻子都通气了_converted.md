@@ -1,15 +1,15 @@
 ---
-title: 我现在两个鼻子都通气了
-subtitle: 把话说给宇宙听之散步随手记
-date: '2025-04-18'
+title: "我现在两个鼻子都通气了"
+subtitle: "把话说给宇宙听之散步随手记"
+date: 2025-04-18
 custom:
   Status: PublishReady
-  WritingStart: '2025-04-17'
-  Completion: '2025-04-17'
-  EditingCompletion: '2025-04-18'
-  PlannedPublication: 'null'
-  ActualPublication: 'null'
-  Notes: 'null'
+  WritingStart: 2025-04-17
+  Completion: 2025-04-17
+  EditingCompletion: 2025-04-18
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---    
 今早出门前穿衣服让我犯难  
 我看天气预报是20度 说体感温度是24度  

@@ -1,15 +1,15 @@
 ---
-title: M真的是个垃圾
-subtitle: 把话说给宇宙听之随手记
-date: '2025-04-18'
+title: "M真的是个垃圾"
+subtitle: "把话说给宇宙听之随手记"
+date: 2025-04-18
 custom:
   Status: PublishReady
-  WritingStart: '2025-04-17'
-  Completion: '2025-04-17'
-  EditingCompletion: '2025-04-18'
-  PlannedPublication: 'null'
-  ActualPublication: 'null'
-  Notes: 'null'
+  WritingStart: 2025-04-17
+  Completion: 2025-04-17
+  EditingCompletion: 2025-04-18
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---    
 宇宙啊宇宙  
 我准备好了接收offer  

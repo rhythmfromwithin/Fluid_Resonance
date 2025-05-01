@@ -1,15 +1,15 @@
 ---
-title: 可以勉强形容为清冷的淡紫
-subtitle: 把话说给宇宙听之散步随手记
-date: '2025-04-24'
+title: "可以勉强形容为清冷的淡紫"
+subtitle: "把话说给宇宙听之散步随手记"
+date: 2025-04-24
 custom:
   Status: PublishReady
-  WritingStart: '2025-04-23'
-  Completion: '2025-04-24'
-  EditingCompletion: '2025-04-24'
-  PlannedPublication: 'null'
-  ActualPublication: 'null'
-  Notes: 'null'
+  WritingStart: 2025-04-23
+  Completion: 2025-04-24
+  EditingCompletion: 2025-04-24
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---    
 世间没有比散步更舒服的事情了  
 刚我一出门 被太阳一照 超级舒服  

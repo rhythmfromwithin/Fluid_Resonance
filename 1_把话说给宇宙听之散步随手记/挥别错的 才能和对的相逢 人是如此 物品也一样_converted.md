@@ -1,15 +1,15 @@
 ---
-title: 挥别错的 才能和对的相逢 人是如此 物品也一样
-subtitle: 把话说给宇宙听之散步随手记
-date: '2025-04-29'
+title: "挥别错的 才能和对的相逢 人是如此 物品也一样"
+subtitle: "把话说给宇宙听之散步随手记"
+date: 2025-04-29
 custom:
   Status: PublishReady
-  WritingStart: '2025-04-29'
-  Completion: '2025-04-29'
-  EditingCompletion: '2025-04-29'
-  PlannedPublication: 'null'
-  ActualPublication: 'null'
-  Notes: 'null'
+  WritingStart: 2025-04-29
+  Completion: 2025-04-29
+  EditingCompletion: 2025-04-29
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---    
 天 這個風速     
 我在想 找工作的壓力 和 工作的壓力 區別在哪呢  

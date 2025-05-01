@@ -1,15 +1,15 @@
 ---
-title: 我被AI工具气笑了续集
-subtitle: 把话说给宇宙听之随手记
-date: '2025-04-21'
+title: "我被AI工具气笑了续集"
+subtitle: "把话说给宇宙听之随手记"
+date: 2025-04-21
 custom:
   Status: PublishReady
-  WritingStart: '2025-04-21'
-  Completion: '2025-04-21'
-  EditingCompletion: '2025-04-21'
-  PlannedPublication: 'null'
-  ActualPublication: 'null'
-  Notes: 'null'
+  WritingStart: 2025-04-21
+  Completion: 2025-04-21
+  EditingCompletion: 2025-04-21
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---    
 我准备把昨天发生的事情记录下来  
 简单来说是这样子的  

@@ -32,7 +32,7 @@ def process_markdown_file(file_path):
     # 获取整个前置元数据块，包括前后的 ---
     entire_front_matter = match.group(0)
     
-    # 获取前置元数据块结束后的所有内容作为正文
+    # 获取前置元数据块结束后的所有内容作为正文（保持原始格式）
     body_start_index = content.find(entire_front_matter) + len(entire_front_matter)
     body_content = content[body_start_index:]
     
@@ -56,8 +56,8 @@ def process_markdown_file(file_path):
     
     # 创建新的前置元数据结构
     new_front_matter = {
-        "title": front_matter.get("Title", ""),
-        "subtitle": front_matter.get("Theme", ""),
+        "title": f'"{front_matter.get("Title", "")}"',
+        "subtitle": f'"{front_matter.get("Theme", "")}"',
         "date": front_matter.get("EditingCompletion", ""),
         "custom": {
             "Status": front_matter.get("Status", ""),
@@ -70,17 +70,9 @@ def process_markdown_file(file_path):
         }
     }
     
-    # 转换为YAML格式
-    try:
-        new_front_matter_text = yaml.dump(new_front_matter, 
-                                        allow_unicode=True, 
-                                        default_flow_style=False,
-                                        sort_keys=False)
-    except Exception as e:
-        print(f"转换YAML时出错: {e}")
-        # 如果YAML转换失败，使用一个简单的字符串格式
-        new_front_matter_text = f"""title: "{new_front_matter['title']}"
-subtitle: "{new_front_matter['subtitle']}"
+    # 手动构建YAML文本，确保保留格式
+    new_front_matter_text = f"""title: {new_front_matter['title']}
+subtitle: {new_front_matter['subtitle']}
 date: {new_front_matter['date']}
 custom:
   Status: {new_front_matter['custom']['Status']}
@@ -89,11 +81,11 @@ custom:
   EditingCompletion: {new_front_matter['custom']['EditingCompletion']}
   PlannedPublication: {new_front_matter['custom']['PlannedPublication']}
   ActualPublication: {new_front_matter['custom']['ActualPublication']}
-  Notes: {new_front_matter['custom']['Notes']}
-"""
+  Notes: {new_front_matter['custom']['Notes']}"""
     
-    # 创建新的内容，保留前缀内容
-    new_content = f"{prefix_content}---\n{new_front_matter_text}---{body_content}"
+    # 创建新的内容，保留前缀内容和原始正文格式
+    # 注意：确保保留正文前的换行符
+    new_content = f"{prefix_content}---\n{new_front_matter_text}\n---{body_content}"
     
     # 输出新内容
     dir_path = os.path.dirname(file_path)

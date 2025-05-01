@@ -1,15 +1,15 @@
 ---
-title: 一干活我就生气
-subtitle: 把话说给宇宙听之随手记
-date: '2025-04-25'
+title: "一干活我就生气"
+subtitle: "把话说给宇宙听之随手记"
+date: 2025-04-25
 custom:
   Status: PublishReady
-  WritingStart: '2025-04-25'
-  Completion: '2025-04-25'
-  EditingCompletion: '2025-04-25'
-  PlannedPublication: 'null'
-  ActualPublication: 'null'
-  Notes: 'null'
+  WritingStart: 2025-04-25
+  Completion: 2025-04-25
+  EditingCompletion: 2025-04-25
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---  
 我的表格 有些信息是混乱的 烦死了    
 我的鼻子好难受 烦死了    

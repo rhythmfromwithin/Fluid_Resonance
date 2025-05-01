@@ -1,15 +1,15 @@
 ---
-title: 好熱鬧的一個周末的傍晚
-subtitle: 把话说给宇宙听之散步随手记
-date: '2025-04-27'
+title: "好熱鬧的一個周末的傍晚"
+subtitle: "把话说给宇宙听之散步随手记"
+date: 2025-04-27
 custom:
   Status: PublishReady
-  WritingStart: '2025-04-27'
-  Completion: '2025-04-27'
-  EditingCompletion: '2025-04-27'
-  PlannedPublication: 'null'
-  ActualPublication: 'null'
-  Notes: 'null'
+  WritingStart: 2025-04-27
+  Completion: 2025-04-27
+  EditingCompletion: 2025-04-27
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---    
 我今天散步本來不想打字了  
 但是有想法和思緒冒出來 那就記下來吧    

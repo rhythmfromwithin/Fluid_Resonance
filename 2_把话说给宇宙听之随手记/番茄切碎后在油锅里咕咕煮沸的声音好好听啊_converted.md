@@ -1,15 +1,15 @@
 ---
-title: 番茄鸡蛋汤
-subtitle: 把话说给宇宙听之随手记
-date: '2025-04-18'
+title: "番茄鸡蛋汤"
+subtitle: "把话说给宇宙听之随手记"
+date: 2025-04-18
 custom:
   Status: PublishReady
-  WritingStart: '2025-04-17'
-  Completion: '2025-04-17'
-  EditingCompletion: '2025-04-18'
-  PlannedPublication: 'null'
-  ActualPublication: 'null'
-  Notes: 'null'
+  WritingStart: 2025-04-17
+  Completion: 2025-04-17
+  EditingCompletion: 2025-04-18
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---    
 我刚在做番茄鸡蛋汤  
 番茄切碎后在油锅里咕咕煮沸的声音好好听啊  

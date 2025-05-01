@@ -1,15 +1,15 @@
 ---
-title: 让花钱的这个操作流程变得可被感知
-subtitle: 把话说给宇宙听之散步随手记
-date: '2025-05-01'
+title: "让花钱的这个操作流程变得可被感知"
+subtitle: "把话说给宇宙听之散步随手记"
+date: 2025-05-01
 custom:
   Status: PublishReady
-  WritingStart: '2025-05-01'
-  Completion: '2025-05-01'
-  EditingCompletion: '2025-05-01'
-  PlannedPublication: 'null'
-  ActualPublication: 'null'
-  Notes: 'null'
+  WritingStart: 2025-05-01
+  Completion: 2025-05-01
+  EditingCompletion: 2025-05-01
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---  
   
 我室友昨晚说她焦虑的时候喜欢花钱 我想这应该是很多人的状态 说不定也是我年轻时候的状态 只是我当时不自知 她喜欢申请信用卡 为了拿到那种开卡奖励的钱 其实这事儿很奇怪 你不觉得吗 你花钱 别人还给你钱让你花钱 这不是一件反常识的事情吗 关键你花的是自己的钱 这仿佛是那个诱惑 诱导你花钱 那个开卡奖励是诱惑 那个焦虑也是诱惑 目的是什么 目的是让你花钱 而不是把钱存下来 为什么会这样呢 这样子焦虑和开卡奖励就能继续诱惑你花钱 这是一种深层次的心理机制 很有意思 有没有  

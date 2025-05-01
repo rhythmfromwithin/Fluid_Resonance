@@ -1,15 +1,15 @@
 ---
-title: 就写写回忆好了
-subtitle: 把话说给宇宙听之随手记
-date: '2025-04-25'
+title: "就写写回忆好了"
+subtitle: "把话说给宇宙听之随手记"
+date: 2025-04-25
 custom:
   Status: PublishReady
-  WritingStart: '2025-04-25'
-  Completion: '2025-04-25'
-  EditingCompletion: '2025-04-25'
-  PlannedPublication: 'null'
-  ActualPublication: 'null'
-  Notes: 'null'
+  WritingStart: 2025-04-25
+  Completion: 2025-04-25
+  EditingCompletion: 2025-04-25
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---  
 既然今天早上提到了这个话题  
 我今天就写一下  

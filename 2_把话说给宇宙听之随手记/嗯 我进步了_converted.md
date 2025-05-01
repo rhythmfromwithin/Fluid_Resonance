@@ -1,15 +1,15 @@
 ---
-title: '"嗯 我进步了"'
-subtitle: 把话说给宇宙听之随手记
-date: '2025-04-18'
+title: ""嗯 我进步了""
+subtitle: "把话说给宇宙听之随手记"
+date: 2025-04-18
 custom:
   Status: PublishReady
-  WritingStart: '2025-04-17'
-  Completion: '2025-04-17'
-  EditingCompletion: '2025-04-18'
-  PlannedPublication: 'null'
-  ActualPublication: 'null'
-  Notes: 'null'
+  WritingStart: 2025-04-17
+  Completion: 2025-04-17
+  EditingCompletion: 2025-04-18
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---    
 刚才吃完饭在刷锅  
 我脑中有几句话飘过  

@@ -1,15 +1,15 @@
 ---
-title: 今晚是满月
-subtitle: 把话说给宇宙听之夜里醒来时
-date: '2025-04-18'
+title: "今晚是满月"
+subtitle: "把话说给宇宙听之夜里醒来时"
+date: 2025-04-18
 custom:
   Status: PublishReady
-  WritingStart: '2025-04-17'
-  Completion: '2025-04-17'
-  EditingCompletion: '2025-04-18'
-  PlannedPublication: 'null'
-  ActualPublication: 'null'
-  Notes: 'null'
+  WritingStart: 2025-04-17
+  Completion: 2025-04-17
+  EditingCompletion: 2025-04-18
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---  
 我脑子飘了三次罗大佑的这句歌词 多年之前满怀重重的心事/我走出一个家/而今何处能安抚这疲惫的心灵浪迹在天涯 我本来以为是家的歌词 结果搜索了一下 发现都不是 他有三首家  
 后来才发现这词是来自 亚细亚的孤儿  
