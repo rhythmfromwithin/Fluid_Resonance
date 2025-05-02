@@ -1,27 +1,27 @@
----  
-title: ""  
-subtitle: ""  
-date: 2025-04-18  
-custom:  
-  Status: PublishReady  
-  WritingStart: 2025-04-17  
-  Completion: 2025-04-17  
-  EditingCompletion: 2025-04-18  
-  PlannedPublication: null  
-  ActualPublication: null  
-  Notes: null  
----      
-我刚在做番茄鸡蛋汤    
-番茄切碎后在油锅里咕咕煮沸的声音好好听啊    
-我突然觉得我的这个番茄鸡蛋汤是有灵魂的    
-笑      
-我发现自己不喜欢吃番茄皮    
-所以我今晚在抄之前先烧了一壶热水浇了番茄    
-把皮拨了    
-我再切碎炒的      
-第一次加粉丝    
-水量没有掌握好    
-粉丝放进去之后太满了    
-有一些汤流出来了    
-好狼狈      
-  
+---    
+title: ""    
+subtitle: ""    
+date: 2025-04-18    
+custom:    
+  Status: PublishReady    
+  WritingStart: 2025-04-17    
+  Completion: 2025-04-17    
+  EditingCompletion: 2025-04-18    
+  PlannedPublication: null    
+  ActualPublication: null    
+  Notes: null    
+---        
+我刚在做番茄鸡蛋汤      
+番茄切碎后在油锅里咕咕煮沸的声音好好听啊      
+我突然觉得我的这个番茄鸡蛋汤是有灵魂的      
+笑        
+我发现自己不喜欢吃番茄皮      
+所以我今晚在抄之前先烧了一壶热水浇了番茄      
+把皮拨了      
+我再切碎炒的        
+第一次加粉丝      
+水量没有掌握好      
+粉丝放进去之后太满了      
+有一些汤流出来了      
+好狼狈        
+    
