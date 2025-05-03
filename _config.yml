@@ -1,7 +1,9 @@
 # 网站基本信息
 title: Fluid Resonance
 description: tracing the inner voice, word by word.
-author: Tao Zhang
+author:
+    name: Tao Zhang
+    email: tao.creativespace@gmail.com # 可选
 
 # 使用 Minima 主题
 theme: minima
@@ -9,36 +11,77 @@ theme: minima
 # Minima 主题设置
 minima:
     date_format: "%Y-%m-%d" # 日期格式
+    # 导航栏设置 - 添加你想要在顶部导航栏显示的页面
+    nav_pages:
+        - about.md
+        - archive.md
+    # 皮肤设置 (可选: classic, dark, auto, solarized)
+    skin: auto
+    # 社交媒体链接
+    social_links:
+        - title: GitHub
+          icon: github
+          url: https://github.com/rhythmfromwithin
+        # 可以添加更多社交媒体
 
-# 社交媒体链接（可选）
-social_links:
-    github: rhythmfromwithin
-
-# 其他设置
+# 首页设置
 show_excerpts: true # 在首页显示文章摘要
 
 # 支持中文和UTF-8字符
 encoding: utf-8
 timezone: Asia/Shanghai
 
-# 设置集合 - 只添加您现有的一两个文件夹作为测试
+# 设置集合 - 为你的文件夹创建集合
 collections:
-    6_把话说给宇宙听--致敬那些无以名状的存在: # 替换为您实际的文件夹名
+    6_把话说给宇宙听--致敬那些无以名状的存在:
         output: true
         permalink: /:collection/:name/
-    2_把话说给宇宙听之随手记: # 替换为您实际的文件夹名
+        title: "致敬那些无以名状的存在" # 显示在页面上的集合标题
+    2_把话说给宇宙听之随手记:
         output: true
         permalink: /:collection/:name/
+        title: "把话说给宇宙听之随手记" # 显示在页面上的集合标题
+    1_把话说给宇宙听之散步随手记:
+        output: true
+        permalink: /:collection/:name/
+        title: "把话说给宇宙听之散步随手记" # 显示在页面上的集合标题
+    1_把话说给宇宙听--散步随手记:
+        output: true
+        permalink: /:collection/:name/
+        title: "把话说给宇宙听--散步随手记" # 显示在页面上的集合标题
 
-# 为测试的集合设置默认布局
+# 为集合设置默认布局和其他属性
 defaults:
     - scope:
           path: ""
-          type: "6_把话说给宇宙听--致敬那些无以名状的存在" # 替换为您实际的文件夹名
+          type: "6_把话说给宇宙听--致敬那些无以名状的存在"
       values:
           layout: post
+          author: Tao Zhang
+          category: "把话说给宇宙听"
     - scope:
           path: ""
-          type: "2_把话说给宇宙听之随手记" # 替换为您实际的文件夹名
+          type: "2_把话说给宇宙听之随手记"
       values:
           layout: post
+          author: Tao Zhang
+          category: "把话说给宇宙听"
+    - scope:
+          path: ""
+          type: "1_把话说给宇宙听之散步随手记"
+      values:
+          layout: post
+          author: Tao Zhang
+          category: "把话说给宇宙听"
+    - scope:
+          path: ""
+          type: "1_把话说给宇宙听--散步随手记"
+      values:
+          layout: post
+          author: Tao Zhang
+          category: "把话说给宇宙听"
+    # 为所有页面设置默认
+    - scope:
+          path: ""
+      values:
+          lang: "zh-CN" # 默认语言设置
