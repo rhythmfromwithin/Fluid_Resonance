@@ -45,3 +45,24 @@ title: Rhythm from within
   {% endif %}
 {% endfor %}
 
+---
+layout: home
+---
+
+# 欢迎来到 Fluid Resonance
+
+下面是按照主题分类的文章列表：
+
+{% for collection in site.collections %}
+  {% if collection.label != "posts" %}
+    <h2>{{ collection.label }}</h2>
+    <ul>
+    {% for post in site[collection.label] %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {% if post.subtitle %} - {{ post.subtitle }}{% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}
