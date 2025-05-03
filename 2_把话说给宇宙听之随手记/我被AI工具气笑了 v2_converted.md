@@ -1,15 +1,15 @@
----      
-title: "我被AI工具气笑了"      
-subtitle: "把话说给宇宙听之随手记"      
-date: 2025-04-21      
-custom:      
-  Status: PublishReady      
-  WritingStart: 2025-04-20      
-  Completion: 2025-04-21      
-  EditingCompletion: 2025-04-21      
-  PlannedPublication: null      
-  ActualPublication: null      
-  Notes: null      
+---
+title: "我被AI工具气笑了"
+subtitle: "把话说给宇宙听之随手记"
+date: 2025-04-21
+custom:
+  Status: PublishReady
+  WritingStart: 2025-04-20
+  Completion: 2025-04-21
+  EditingCompletion: 2025-04-21
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---            
 我被AI工具笑到了        
 它所我的 Markdown 文件的 YAML 语法错误        

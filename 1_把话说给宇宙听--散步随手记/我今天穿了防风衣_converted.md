@@ -1,15 +1,15 @@
----      
-title: "我今天穿了防风衣"      
-subtitle: "把话说给宇宙听之散步随手记"      
-date: 2025-04-18      
-custom:      
-  Status: PublishReady      
-  WritingStart: 2025-04-17      
-  Completion: 2025-04-17      
-  EditingCompletion: 2025-04-18      
-  PlannedPublication: null      
-  ActualPublication: null      
-  Notes: null      
+---
+title: "我今天穿了防风衣"
+subtitle: "把话说给宇宙听之散步随手记"
+date: 2025-04-18
+custom:
+  Status: PublishReady
+  WritingStart: 2025-04-17
+  Completion: 2025-04-17
+  EditingCompletion: 2025-04-18
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---        
 我又出门散步了        
 今天把我的表格整理到百分之八十了        

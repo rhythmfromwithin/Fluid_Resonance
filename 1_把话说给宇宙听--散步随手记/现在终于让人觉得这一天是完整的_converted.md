@@ -1,15 +1,15 @@
----      
-title: "现在终于让人觉得这一天是完整的"      
-subtitle: "把话说给宇宙听之散步随手记"      
-date: 2025-04-18      
-custom:      
-  Status: PublishReady      
-  WritingStart: 2025-04-17      
-  Completion: 2025-04-17      
-  EditingCompletion: 2025-04-18      
-  PlannedPublication: null      
-  ActualPublication: null      
-  Notes: null      
+---
+title: "现在终于让人觉得这一天是完整的"
+subtitle: "把话说给宇宙听之散步随手记"
+date: 2025-04-18
+custom:
+  Status: PublishReady
+  WritingStart: 2025-04-17
+  Completion: 2025-04-17
+  EditingCompletion: 2025-04-18
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---          
 我又出來散步了        
 虽然下午去超市在外面走了        

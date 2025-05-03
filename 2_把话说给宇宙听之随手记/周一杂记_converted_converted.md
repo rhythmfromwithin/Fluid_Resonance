@@ -1,15 +1,15 @@
----      
-title: ""      
-subtitle: ""      
-date: '2025-04-29'      
-custom:      
-  Status: PublishReady      
-  WritingStart: '2025-04-28'      
-  Completion: '2025-04-29'      
-  EditingCompletion: '2025-04-29'      
-  PlannedPublication: 'null'      
-  ActualPublication: 'null'      
-  Notes: 'null'      
+---
+title: ""
+subtitle: ""
+date: 2025-04-29
+custom:
+  Status: PublishReady
+  WritingStart: 2025-04-28
+  Completion: 2025-04-29
+  EditingCompletion: 2025-04-29
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---        
 今天的流水账我先记一下        
 把昨天剩余的最后一本书上架到eBay了        

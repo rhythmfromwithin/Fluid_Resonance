@@ -1,15 +1,15 @@
----      
-title: "不写就活不下去"      
-subtitle: "把话说给宇宙听之随手记"      
-date: 2025-04-30      
-custom:      
-  Status: PublishReady      
-  WritingStart: 2025-04-29      
-  Completion: 2025-04-30      
-  EditingCompletion: 2025-04-30      
-  PlannedPublication: null      
-  ActualPublication: null      
-  Notes: null      
+---
+title: "不写就活不下去"
+subtitle: "把话说给宇宙听之随手记"
+date: 2025-04-30
+custom:
+  Status: PublishReady
+  WritingStart: 2025-04-29
+  Completion: 2025-04-30
+  EditingCompletion: 2025-04-30
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---          
 我是那种不写就活不下去的人        
 我想知道有没有人和我一样 不写点东西就活不下去          

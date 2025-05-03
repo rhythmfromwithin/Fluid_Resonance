@@ -1,15 +1,15 @@
----      
-title: ""      
-subtitle: ""      
-date: '2025-04-21'      
-custom:      
-  Status: PublishReady      
-  WritingStart: '2025-04-21'      
-  Completion: '2025-04-21'      
-  EditingCompletion: '2025-04-21'      
-  PlannedPublication: 'null'      
-  ActualPublication: 'null'      
-  Notes: 'null'      
+---
+title: ""
+subtitle: ""
+date: 2025-04-21
+custom:
+  Status: PublishReady
+  WritingStart: 2025-04-21
+  Completion: 2025-04-21
+  EditingCompletion: 2025-04-21
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---          
 我现在觉得我室友好聒噪          
 我的邮件自动化功能初步测试通过        

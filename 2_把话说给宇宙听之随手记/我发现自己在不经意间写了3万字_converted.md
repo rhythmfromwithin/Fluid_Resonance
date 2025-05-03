@@ -1,15 +1,15 @@
----      
-title: "我发现自己在不经意间写了3万字"      
-subtitle: "把话说给宇宙听之随手记"      
-date: 2025-04-21      
-custom:      
-  Status: PublishReady      
-  WritingStart: 2025-04-21      
-  Completion: 2025-04-21      
-  EditingCompletion: 2025-04-21      
-  PlannedPublication: null      
-  ActualPublication: null      
-  Notes: null      
+---
+title: "我发现自己在不经意间写了3万字"
+subtitle: "把话说给宇宙听之随手记"
+date: 2025-04-21
+custom:
+  Status: PublishReady
+  WritingStart: 2025-04-21
+  Completion: 2025-04-21
+  EditingCompletion: 2025-04-21
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---        
 我现在越来越有一种感觉        
 我可能对自我表达这件事情有天赋        

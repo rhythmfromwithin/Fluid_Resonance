@@ -1,15 +1,15 @@
----      
-title: "烦死了"      
-subtitle: "把话说给宇宙听之散步随手记"      
-date: 2025-04-26      
-custom:      
-  Status: PublishReady      
-  WritingStart: 2025-04-26      
-  Completion: 2025-04-26      
-  EditingCompletion: 2025-04-26      
-  PlannedPublication: null      
-  ActualPublication: null      
-  Notes: null      
+---
+title: "烦死了"
+subtitle: "把话说给宇宙听之散步随手记"
+date: 2025-04-26
+custom:
+  Status: PublishReady
+  WritingStart: 2025-04-26
+  Completion: 2025-04-26
+  EditingCompletion: 2025-04-26
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---        
 真的是烦死了          
 我的眼睛右边的肿胀 其实是因为昨天有异物入侵 当时风很大 我的眼睛隐约觉得不舒服 我还以为是灰尘之类的 应该是有 小虫子之类的入侵 妈的 真的是烦死了        

@@ -1,15 +1,15 @@
----      
-title: "人真的好神奇"      
-subtitle: "把话说给宇宙听之随手记"      
-date: 2025-04-18      
-custom:      
-  Status: PublishReady      
-  WritingStart: 2025-04-17      
-  Completion: 2025-04-17      
-  EditingCompletion: 2025-04-18      
-  PlannedPublication: null      
-  ActualPublication: null      
-  Notes: null      
+---
+title: "人真的好神奇"
+subtitle: "把话说给宇宙听之随手记"
+date: 2025-04-18
+custom:
+  Status: PublishReady
+  WritingStart: 2025-04-17
+  Completion: 2025-04-17
+  EditingCompletion: 2025-04-18
+  PlannedPublication: null
+  ActualPublication: null
+  Notes: null
 ---          
 人真的好神奇        
 那些强烈的情绪        

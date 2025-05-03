@@ -18,13 +18,27 @@ def process_markdown_file(file_path):
         print(f"读取文件时出错: {e}")
         return
     
-    # 更改这部分，使用一个更灵活的正则表达式来匹配前置元数据块
-    front_matter_pattern = r'---\n(.*?)\n---'
+    # 更改这部分，使用更灵活的正则表达式来匹配前置元数据块
+    # 这个新正则表达式可以匹配以下情况:
+    # 1. --- 开始和结束，中间可能有任意空白字符
+    # 2. 允许前置元数据和分隔符之间存在空格
+    # 3. 允许Windows风格的换行符 (\r\n)
+    front_matter_pattern = r'^\s*---\s*[\r\n]+(.*?)[\r\n]+\s*---'
     match = re.search(front_matter_pattern, content, re.DOTALL)
     
     if not match:
-        print(f"无法在文件 {file_path} 中找到前置元数据块")
-        return
+        # 如果找不到标准格式，尝试寻找替代格式
+        alt_pattern = r'^\s*---\s*(.*?)\s*---'
+        match = re.search(alt_pattern, content, re.DOTALL)
+        
+        if not match:
+            print(f"无法在文件 {file_path} 中找到前置元数据块")
+            # 创建一个日志文件，记录出错的文件和内容的前100个字符
+            with open("frontmatter_error_log.txt", "a", encoding="utf-8") as log:
+                log.write(f"文件: {file_path}\n")
+                log.write(f"内容前100个字符: {content[:100]}\n")
+                log.write("-" * 50 + "\n")
+            return
     
     # 提取前置元数据和正文内容
     front_matter_text = match.group(1)
@@ -83,9 +97,14 @@ custom:
   ActualPublication: {new_front_matter['custom']['ActualPublication']}
   Notes: {new_front_matter['custom']['Notes']}"""
     
+    # 关键改进：保留行尾空格
+    # 使用splitlines(True)来保留每行的换行符
+    body_lines = body_content.splitlines(True)
+    preserved_body = ''.join(body_lines)
+    
     # 创建新的内容，保留前缀内容和原始正文格式
     # 注意：确保保留正文前的换行符
-    new_content = f"{prefix_content}---\n{new_front_matter_text}\n---{body_content}"
+    new_content = f"{prefix_content}---\n{new_front_matter_text}\n---{preserved_body}"
     
     # 输出新内容
     dir_path = os.path.dirname(file_path)
@@ -124,9 +143,26 @@ def list_subdirectories(root_path='.'):
             subdirectories.append(item)
     return subdirectories
 
+def preview_file_content(file_path):
+    """预览文件内容的前100个字符，帮助诊断问题"""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            content = file.read(100)  # 只读取前100个字符
+        print(f"\n文件 {file_path} 的前100个字符:")
+        print("-" * 50)
+        print(content)
+        print("-" * 50)
+        
+        # 显示字符的ASCII/Unicode编码，帮助检测隐藏字符
+        print("字符编码:")
+        for i, char in enumerate(content[:30]):  # 仅显示前30个字符的编码
+            print(f"位置 {i}: '{char}' - {ord(char)}")
+    except Exception as e:
+        print(f"预览文件时出错: {e}")
+
 if __name__ == "__main__":
-    print("YAML前置元数据转换脚本")
-    print("======================")
+    print("YAML前置元数据转换脚本 (增强版)")
+    print("============================")
     
     # 获取当前目录（脚本所在目录）
     current_dir = os.path.dirname(os.path.abspath(__file__)) or '.'
@@ -148,8 +184,9 @@ if __name__ == "__main__":
         print("2. 处理所有子目录中的所有.md文件")
         print("3. 处理指定的单个.md文件")
         print("4. 输入完整文件路径进行处理")
+        print("5. 预览文件内容（诊断问题用）")
         
-        choice = input("请选择操作 (1/2/3/4): ")
+        choice = input("请选择操作 (1/2/3/4/5): ")
     
     if choice == '1':
         dir_num = int(input(f"请输入要处理的子目录编号 (1-{len(subdirectories)}): "))
@@ -196,6 +233,13 @@ if __name__ == "__main__":
         file_path = input("请输入完整的文件路径: ")
         if os.path.isfile(file_path):
             process_markdown_file(file_path)
+        else:
+            print(f"错误: 无效的文件路径: {file_path}")
+    
+    elif choice == '5':
+        file_path = input("请输入要预览的文件路径: ")
+        if os.path.isfile(file_path):
+            preview_file_content(file_path)
         else:
             print(f"错误: 无效的文件路径: {file_path}")
     
