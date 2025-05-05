@@ -1,15 +1,15 @@
----
-title: ""
-subtitle: ""
-date: 2025-04-30
-custom:
-  Status: PublishReady
-  WritingStart: 2025-04-30
-  Completion: 2025-04-30
-  EditingCompletion: 2025-04-30
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: ""  
+subtitle: ""  
+date: 2025-04-30  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-04-30  
+  Completion: 2025-04-30  
+  EditingCompletion: 2025-04-30  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---          
 我觉得现在的求职行情变了 我需要调整一下我的策略          
 我想侧重 fintech 和 digit banking 我的 e-commerce 和 data scientist 的优势就可以用起来          

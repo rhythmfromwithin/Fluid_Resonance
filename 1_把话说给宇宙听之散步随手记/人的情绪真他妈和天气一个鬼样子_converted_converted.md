@@ -1,15 +1,15 @@
----
-title: ""
-subtitle: ""
-date: 2025-04-27
-custom:
-  Status: PublishReady
-  WritingStart: 2025-04-26
-  Completion: 2025-04-27
-  EditingCompletion: 2025-04-27
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: ""  
+subtitle: ""  
+date: 2025-04-27  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-04-26  
+  Completion: 2025-04-27  
+  EditingCompletion: 2025-04-27  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---          
 雨过天晴纵然好        
 但我还是想骂人        

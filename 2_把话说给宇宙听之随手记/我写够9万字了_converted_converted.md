@@ -1,15 +1,15 @@
----
-title: ""
-subtitle: ""
-date: 2025-04-29
-custom:
-  Status: PublishReady
-  WritingStart: 2025-04-29
-  Completion: 2025-04-29
-  EditingCompletion: 2025-04-29
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: ""  
+subtitle: ""  
+date: 2025-04-29  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-04-29  
+  Completion: 2025-04-29  
+  EditingCompletion: 2025-04-29  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---        
 我今天写够9万字了 虽说是草稿 初步的草稿 但确实是9万个字了 这都是我一个字一个字打出来的 我为自己骄傲          
 刚写完这个字 我昨晚精心布置好的吸引金钱和财富的那个财位的角落的位置倒了 欠妥当 看来需要重新排列一下子 昨天放置的位置欠妥当 罢了 接受生活的安排 顺势而为           

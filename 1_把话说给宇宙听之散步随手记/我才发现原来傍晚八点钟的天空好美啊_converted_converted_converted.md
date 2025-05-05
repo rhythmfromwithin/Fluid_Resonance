@@ -1,15 +1,15 @@
----
-title: ""
-subtitle: ""
-date: 2025-04-18
-custom:
-  Status: PublishReady
-  WritingStart: 2025-04-22
-  Completion: 2025-04-17
-  EditingCompletion: 2025-04-18
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: ""  
+subtitle: ""  
+date: 2025-04-18  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-04-22  
+  Completion: 2025-04-17  
+  EditingCompletion: 2025-04-18  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---          
 我刚出门前吃了我室友做的炸鸡        
 她就是我前文说的骑车摔倒擦破肘部和膝盖的那个室友        

@@ -1,15 +1,15 @@
----
-title: "我本来不想出门散步了"
-subtitle: "把话说给宇宙听之散步随手记"
-date: 2025-04-26
-custom:
-  Status: PublishReady
-  WritingStart: 2025-04-26
-  Completion: 2025-04-26
-  EditingCompletion: 2025-04-26
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: "我本来不想出门散步了"  
+subtitle: "把话说给宇宙听之散步随手记"  
+date: 2025-04-26  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-04-26  
+  Completion: 2025-04-26  
+  EditingCompletion: 2025-04-26  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---        
 今早醒来整个人非常难受        
 其中有一个当口是其实对梦境的记忆非常清新        

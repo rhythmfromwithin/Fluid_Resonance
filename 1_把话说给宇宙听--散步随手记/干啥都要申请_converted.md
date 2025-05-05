@@ -1,15 +1,15 @@
----
-title: "干啥都要申请"
-subtitle: "把话说给宇宙听之散步随手记"
-date: 2025-04-18
-custom:
-  Status: PublishReady
-  WritingStart: 2025-04-16
-  Completion: 2025-04-16
-  EditingCompletion: 2025-04-18
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: "干啥都要申请"  
+subtitle: "把话说给宇宙听之散步随手记"  
+date: 2025-04-18  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-04-16  
+  Completion: 2025-04-16  
+  EditingCompletion: 2025-04-18  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---        
 今天垃圾车来得好早          
 我一方面觉得每天出门散步写写挺好的        

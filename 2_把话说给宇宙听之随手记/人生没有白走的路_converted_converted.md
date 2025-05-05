@@ -1,15 +1,15 @@
----
-title: ""
-subtitle: ""
-date: 2025-04-18
-custom:
-  Status: PublishReady
-  WritingStart: 2025-04-17
-  Completion: 2025-04-17
-  EditingCompletion: 2025-04-18
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: ""  
+subtitle: ""  
+date: 2025-04-18  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-04-17  
+  Completion: 2025-04-17  
+  EditingCompletion: 2025-04-18  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---        
 刚才窗外的车的声音特别刺耳        
 像剪刀在钢铁上划过的那种质感        

@@ -1,15 +1,15 @@
----
-title: ""
-subtitle: ""
-date: 2025-04-24
-custom:
-  Status: PublishReady
-  WritingStart: 2025-04-17
-  Completion: 2025-04-24
-  EditingCompletion: 2025-04-24
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: ""  
+subtitle: ""  
+date: 2025-04-24  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-04-17  
+  Completion: 2025-04-24  
+  EditingCompletion: 2025-04-24  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---          
 我早上醒来记录了一下自己的梦境        
 我现在对梦境的记录讲究一个随缘        

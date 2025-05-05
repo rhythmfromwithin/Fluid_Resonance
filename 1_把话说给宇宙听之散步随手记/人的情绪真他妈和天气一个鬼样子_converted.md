@@ -1,15 +1,15 @@
----
-title: "人的情绪真他妈和天气一个鬼样子"
-subtitle: "把话说给宇宙听之散步随手记"
-date: 2025-04-27
-custom:
-  Status: PublishReady
-  WritingStart: 2025-04-26
-  Completion: 2025-04-27
-  EditingCompletion: 2025-04-27
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: "人的情绪真他妈和天气一个鬼样子"  
+subtitle: "把话说给宇宙听之散步随手记"  
+date: 2025-04-27  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-04-26  
+  Completion: 2025-04-27  
+  EditingCompletion: 2025-04-27  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---          
 雨过天晴纵然好        
 但我还是想骂人        

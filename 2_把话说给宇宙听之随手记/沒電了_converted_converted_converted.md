@@ -1,15 +1,15 @@
----
-title: ""
-subtitle: ""
-date: 2025-04-25
-custom:
-  Status: PublishReady
-  WritingStart: 2025-04-24
-  Completion: 2025-04-25
-  EditingCompletion: 2025-04-25
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: ""  
+subtitle: ""  
+date: 2025-04-25  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-04-24  
+  Completion: 2025-04-25  
+  EditingCompletion: 2025-04-25  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---          
 我自慰的時間 工具沒電了 給我笑到了 沒有比這更搞笑的了          
 我想像中的他 富有 有品味 愛我 寵我          

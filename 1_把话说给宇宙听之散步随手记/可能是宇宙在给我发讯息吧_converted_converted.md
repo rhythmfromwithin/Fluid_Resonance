@@ -1,15 +1,15 @@
----
-title: ""
-subtitle: ""
-date: 2025-04-24
-custom:
-  Status: PublishReady
-  WritingStart: 2025-04-23
-  Completion: 2025-04-24
-  EditingCompletion: 2025-04-24
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: ""  
+subtitle: ""  
+date: 2025-04-24  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-04-23  
+  Completion: 2025-04-24  
+  EditingCompletion: 2025-04-24  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---          
 今早醒来我顺手记录了一下自己的梦境        
 其中一个细节是有一个超级好玩的游乐场        

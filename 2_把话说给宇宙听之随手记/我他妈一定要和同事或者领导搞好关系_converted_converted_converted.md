@@ -1,15 +1,15 @@
----
-title: ""
-subtitle: ""
-date: '2025-04-25'
-custom:
-  Status: PublishReady
-  WritingStart: '2025-04-25'
-  Completion: '2025-04-25'
-  EditingCompletion: '2025-04-25'
-  PlannedPublication: 'null'
-  ActualPublication: 'null'
-  Notes: 'null'
+---  
+title: ""  
+subtitle: ""  
+date: '2025-04-25'  
+custom:  
+  Status: PublishReady  
+  WritingStart: '2025-04-25'  
+  Completion: '2025-04-25'  
+  EditingCompletion: '2025-04-25'  
+  PlannedPublication: 'null'  
+  ActualPublication: 'null'  
+  Notes: 'null'  
 ---        
 我讨厌 LinkedIn 上主动找过来的人        
 主要是他妈没有一次是可靠的        

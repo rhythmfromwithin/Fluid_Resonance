@@ -1,15 +1,15 @@
----
-title: ""
-subtitle: ""
-date: 2025-04-25
-custom:
-  Status: PublishReady
-  WritingStart: 2025-04-18
-  Completion: 2025-04-25
-  EditingCompletion: 2025-04-25
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: ""  
+subtitle: ""  
+date: 2025-04-25  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-04-18  
+  Completion: 2025-04-25  
+  EditingCompletion: 2025-04-25  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---          
 > 我就这么想了，我就写下来了        
 > 记录我正在感知的这个当下        

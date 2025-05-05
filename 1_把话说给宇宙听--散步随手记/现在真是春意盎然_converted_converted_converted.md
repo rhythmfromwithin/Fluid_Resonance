@@ -1,15 +1,15 @@
----
-title: ""
-subtitle: ""
-date: 2025-04-18
-custom:
-  Status: PublishReady
-  WritingStart: 2025-04-17
-  Completion: 2025-04-17
-  EditingCompletion: 2025-04-18
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: ""  
+subtitle: ""  
+date: 2025-04-18  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-04-17  
+  Completion: 2025-04-17  
+  EditingCompletion: 2025-04-18  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---        
 今天早上醒来的时候有一大段歌词冒出来        
 我是爱你的 我会爱你到底        

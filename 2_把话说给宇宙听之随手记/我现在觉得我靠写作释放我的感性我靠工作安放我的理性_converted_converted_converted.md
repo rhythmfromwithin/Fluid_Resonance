@@ -1,15 +1,15 @@
----
-title: ""
-subtitle: ""
-date: 2025-04-24
-custom:
-  Status: PublishReady
-  WritingStart: 2025-04-23
-  Completion: 2025-04-24
-  EditingCompletion: 2025-04-24
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: ""  
+subtitle: ""  
+date: 2025-04-24  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-04-23  
+  Completion: 2025-04-24  
+  EditingCompletion: 2025-04-24  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---        
 我现在真的这么觉得        
 我靠写东西释放我的感性        

@@ -1,15 +1,15 @@
----
-title: ""
-subtitle: ""
-date: 2025-04-18
-custom:
-  Status: PublishReady
-  WritingStart: 2025-04-30
-  Completion: 2025-04-17
-  EditingCompletion: 2025-04-18
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: ""  
+subtitle: ""  
+date: 2025-04-18  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-04-30  
+  Completion: 2025-04-17  
+  EditingCompletion: 2025-04-18  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---        
 我设置一下我的Github Pages 好了          
 今天感觉很疲劳 没有精气神 先做点事情缓缓神 然后下午开始搞找工作的事情 我觉得一天工作5个小时 处理工作事务 这个时间安排是合理的 毕竟这是一个长线的事情 一般上班的时间 大部分时间是在开会 在沟通 在交流 在交换信息 同步进度 真正做事情的时间估计还不到5个小时           

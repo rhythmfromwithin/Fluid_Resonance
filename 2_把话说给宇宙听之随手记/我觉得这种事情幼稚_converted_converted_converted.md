@@ -1,15 +1,15 @@
----
-title: ""
-subtitle: ""
-date: 2025-04-25
-custom:
-  Status: PublishReady
-  WritingStart: 2025-04-24
-  Completion: 2025-04-25
-  EditingCompletion: 2025-04-25
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: ""  
+subtitle: ""  
+date: 2025-04-25  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-04-24  
+  Completion: 2025-04-25  
+  EditingCompletion: 2025-04-25  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---          
 我非常反感和我室友聊天        
 她聊天的内容像口水仗        

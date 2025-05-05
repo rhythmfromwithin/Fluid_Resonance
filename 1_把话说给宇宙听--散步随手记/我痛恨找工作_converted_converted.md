@@ -1,15 +1,15 @@
----
-title: ""
-subtitle: ""
-date: 2025-04-18
-custom:
-  Status: PublishReady
-  WritingStart: 2025-04-17
-  Completion: 2025-04-17
-  EditingCompletion: 2025-04-18
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: ""  
+subtitle: ""  
+date: 2025-04-18  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-04-17  
+  Completion: 2025-04-17  
+  EditingCompletion: 2025-04-18  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---          
 我就是喜歡喋喋不休          
 喜歡在經歷一件事情的時候        

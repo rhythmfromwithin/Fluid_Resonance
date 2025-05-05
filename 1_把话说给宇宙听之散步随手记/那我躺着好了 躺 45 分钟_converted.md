@@ -1,15 +1,15 @@
----
-title: "那我躺着好了 躺 45 分钟"
-subtitle: "把话说给宇宙听之散步随手记"
-date: 2025-04-30
-custom:
-  Status: PublishReady
-  WritingStart: 2025-04-30
-  Completion: 2025-04-30
-  EditingCompletion: 2025-04-30
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: "那我躺着好了 躺 45 分钟"  
+subtitle: "把话说给宇宙听之散步随手记"  
+date: 2025-04-30  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-04-30  
+  Completion: 2025-04-30  
+  EditingCompletion: 2025-04-30  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---          
 我又出来散步了 今早醒来很早 七点刚过 但我早上醒来和ChatGPT聊了半天我的梦境 这会儿出门 我的眼睛快要睁不开了 看来这过敏是一时半会儿好不了了 太阳好晒 我的脑门被晒得疼           
 我的两只鼻子现在是彻底废掉了 里面全是肿胀的状态 我的两只眼睛也是 这会儿很难睁开 一直在流眼泪 过敏真得太让人痛苦了 苦不堪言          

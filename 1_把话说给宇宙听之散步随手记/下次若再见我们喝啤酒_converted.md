@@ -1,15 +1,15 @@
----
-title: "下次若再见我们喝啤酒"
-subtitle: "把话说给宇宙听之散步随手记"
-date: 2025-04-25
-custom:
-  Status: PublishReady
-  WritingStart: 2025-04-25
-  Completion: 2025-04-25
-  EditingCompletion: 2025-04-25
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: "下次若再见我们喝啤酒"  
+subtitle: "把话说给宇宙听之散步随手记"  
+date: 2025-04-25  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-04-25  
+  Completion: 2025-04-25  
+  EditingCompletion: 2025-04-25  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---          
 既然今天的梦境提到了 yutao        
 那我就写写他好了          

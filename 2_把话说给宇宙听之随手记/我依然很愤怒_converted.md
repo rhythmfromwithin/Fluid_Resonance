@@ -1,15 +1,15 @@
----
-title: "我依然很愤怒"
-subtitle: "把话说给宇宙听之随手记"
-date: 2025-04-25
-custom:
-  Status: PublishReady
-  WritingStart: 2025-04-25
-  Completion: 2025-04-25
-  EditingCompletion: 2025-04-25
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: "我依然很愤怒"  
+subtitle: "把话说给宇宙听之随手记"  
+date: 2025-04-25  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-04-25  
+  Completion: 2025-04-25  
+  EditingCompletion: 2025-04-25  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---        
 我吃完饭了        
 算早午饭        

@@ -1,15 +1,15 @@
----
-title: ""
-subtitle: ""
-date: 2025-04-27
-custom:
-  Status: PublishReady
-  WritingStart: 2025-04-27
-  Completion: 2025-04-27
-  EditingCompletion: 2025-04-27
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: ""  
+subtitle: ""  
+date: 2025-04-27  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-04-27  
+  Completion: 2025-04-27  
+  EditingCompletion: 2025-04-27  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---          
 我討厭別人說話和放屁一樣          
 我討厭別人說的話又不兌現        

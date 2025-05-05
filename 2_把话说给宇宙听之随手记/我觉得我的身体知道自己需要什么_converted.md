@@ -1,15 +1,15 @@
----
-title: "我觉得我的身体知道自己需要什么"
-subtitle: "把话说给宇宙听之随手记"
-date: 2025-05-02
-custom:
-  Status: PublishReady
-  WritingStart: 2025-05-01
-  Completion: 2025-05-02
-  EditingCompletion: 2025-05-02
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: "我觉得我的身体知道自己需要什么"  
+subtitle: "把话说给宇宙听之随手记"  
+date: 2025-05-02  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-05-01  
+  Completion: 2025-05-02  
+  EditingCompletion: 2025-05-02  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---  
   
 我在吃早餐 牛角包+牛奶+苹果酱 我泡到一起了 拿勺子吃   

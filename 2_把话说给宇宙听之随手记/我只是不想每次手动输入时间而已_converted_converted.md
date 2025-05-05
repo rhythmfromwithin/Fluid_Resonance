@@ -1,15 +1,15 @@
----
-title: ""
-subtitle: ""
-date: 2025-04-24
-custom:
-  Status: PublishReady
-  WritingStart: 2025-04-22
-  Completion: 2025-04-24
-  EditingCompletion: 2025-04-24
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: ""  
+subtitle: ""  
+date: 2025-04-24  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-04-22  
+  Completion: 2025-04-24  
+  EditingCompletion: 2025-04-24  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---          
 苍天啊        
 我只是不想每次手动输入时间而已          

@@ -1,15 +1,15 @@
----
-title: "拥抱这种讨厌"
-subtitle: "把话说给宇宙听之随手记"
-date: 2025-05-02
-custom:
-  Status: PublishReady
-  WritingStart: 2025-05-02
-  Completion: 2025-05-02
-  EditingCompletion: 2025-05-02
-  PlannedPublication: null
-  ActualPublication: null
-  Notes: null
+---  
+title: "拥抱这种讨厌"  
+subtitle: "把话说给宇宙听之随手记"  
+date: 2025-05-02  
+custom:  
+  Status: PublishReady  
+  WritingStart: 2025-05-02  
+  Completion: 2025-05-02  
+  EditingCompletion: 2025-05-02  
+  PlannedPublication: null  
+  ActualPublication: null  
+  Notes: null  
 ---  
 我今晚散步回来之后哭了  
   
